@@ -55,14 +55,14 @@ body {
 }
 
 .navbar .navbar-nav a:hover {
-  color: var(--button);
+  color: var(--secondary);
 }
 
 .navbar .navbar-nav a::after {
   content: "";
   display: block;
   padding-bottom: 0.5rem;
-  border-bottom: 0.15rem solid var(--button);
+  border-bottom: 0.15rem solid var(--secondary);
   transform: scaleX(0);
   transition: 0.1s linear;
 }
